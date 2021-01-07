@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<students>
+   <student id="a">
+      <no>19001</no>
+      <name>Sadhvi</name>
+      <email>sadhvi@gmail.com</email>
+      <marks>90</marks>
+      <class>CSE A</class>
+   </student>
+   <student id="b">
+      <no>19014</no>
+      <name>Sheshi</name>
+      <email>sheshi@gmail.com</email>
+      <marks>92</marks>
+      <class>CSE C</class>
+   </student>
+  <student id="c">
+      <no>19003</no>
+      <name>Nitya</name>
+      <email>nitya@gmail.com</email>
+      <marks>95</marks>
+      <class>IT B</class>
+   </student>
+  <student id="d">
+      <no>19012</no>
+      <name>Likhitha</name>
+      <email>likhitha@gmail.com</email>
+      <marks>85</marks>
+      <class>ECE A</class>
+</student>
+    <student id="e">
+      <no>19005</no>
+      <name>Amruta</name>
+      <email>amruta@gmail.com</email>
+      <marks>98</marks>
+      <class>EEE A</class>
+</student>
+</students>
+
