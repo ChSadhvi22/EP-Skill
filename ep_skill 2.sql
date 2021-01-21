@@ -1,0 +1,18 @@
+show databases;
+create database ep_skill;
+use ep_skill;
+create table Employee(Ename char(20),id int,age int,department char(5), desig char(15),salary int,date_of_work char(15));
+desc Employee;
+insert into Employee values("Sadhvi",111,26,"CSE","Professor",50000,"01-12-2019");
+insert into Employee values("Likhitha",132,28,"IT","HR",80000,"25-4-2014");
+insert into Employee values("Amruta",133,26,"EEE","Professor",45000,"15-7-2018");
+insert into Employee values("Nitya",124,27,"MECH","Professor",48000,"5-5-2013");
+insert into Employee values("Teju",245,35,"CSE","Dean-Academics",90000,"27-8-1985");
+select * from Employee;
+delete from Employee where department="EEE";
+update Employee set columnname="Address";
+update Employee set Address="Kadapa" where id=245;
+update employee set Address="Hyderabad" where id=133;
+insert into Employee values("Anika",233,26,"EEE","Professor",45000,"15-7-2015");
+insert into Employee values("Asha",126,25,"ECM","Asst.Professor",30000,"07-12-2014");
+delete from Employee where id=132;
