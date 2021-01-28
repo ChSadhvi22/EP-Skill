@@ -1,0 +1,25 @@
+<html>
+<title>Registration Form</title>
+<body bgcolor="skyblue">
+<head>
+<link rel="stylesheet" type="text/css" href="design.css">
+<body>
+<h1 align="center">Registration Form</h1>
+<h2 align="center">Student Credentials</h2>
+<form method-"post">
+<table align="center">
+<tr><td>Name of the student :</td><td><input type="text" name="name"></td></tr><br>
+<tr><td>Regno:</td><td><input type="text" name="rno"></td></tr><br>
+<tr><td>Email Id:</td><td><input type="text" name="eid"></td></tr><br>
+<tr><td>favourite game:</td><td><input type="checkbox">Badminton<input type="checkbox">Cricket<input type="checkbox">Chess<input type="checkbox">Basketball<input type="checkbox">Hockey</td></td></tr><br>
+<tr><td>Gender:</td><td><input type="radio">male<input type="radio">female</td></td></tr><br>
+<tr><td>Address: </td></tr>
+<tr><td><textarea id="w3review" name="w3review" rows="4" cols="50">
+ </textarea></td></td>
+<tr><td><input type="submit" value="Register"></td></tr>
+</table>
+</form>
+</body>
+</head>
+</body>
+</html>
